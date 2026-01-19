@@ -24,3 +24,12 @@ print(fruits[0])  # Accessing the first element of the list
 coordinates = (10.0, 20.0)
 colors = ("red", "green", "blue")
 print(coordinates[1])  # Accessing the second element of the tuple
+
+# Dictionaries
+person = {"name": "Bob", "age": 30, "city": "New York"}
+print(person["name"])  # Accessing the value associated with the key "name"
+
+# Sets
+unique_numbers = {1, 2, 3, 4, 5}
+unique_fruits = {"apple", "banana", "cherry"}
+print(unique_numbers)  # Displaying the set of unique numbers

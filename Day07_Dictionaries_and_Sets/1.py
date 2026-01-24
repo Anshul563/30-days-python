@@ -12,7 +12,12 @@ student_profile = {
         "Physics": 88,
         "Computer Science": 92
     }
+    
 }
+
+total_grades = sum(student_profile["grades"].values())
+
+
 
 # --- How to use it ---
 
@@ -20,6 +25,7 @@ student_profile = {
 print(student_profile["name"])  
 # Output: Emma Watson
 
-# 2. Accessing nested data (The grade for Physics)
-print(student_profile["grades"]["Physics"])  
-# Output: 88
+# 2. Accessing list data
+
+print(total_grades)  
+# Output: 275

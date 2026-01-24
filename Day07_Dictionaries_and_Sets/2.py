@@ -4,3 +4,4 @@ bag = {
 }
 
 print(bag["fruits"][0])
+print(bag["vegetables"])

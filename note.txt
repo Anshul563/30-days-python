@@ -1,2 +1,4 @@
 Hello! This is my first file.
 I am writing this using Python.
+This is an extra line.
+Appending is useful for logs.

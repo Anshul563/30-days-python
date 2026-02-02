@@ -1,5 +1,5 @@
 try:
-    password = "123"
+    password = "12345"
     
     # 1. We check the rule
     if len(password) < 5:
